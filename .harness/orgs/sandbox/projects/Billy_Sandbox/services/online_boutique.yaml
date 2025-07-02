@@ -15,7 +15,7 @@ service:
                   connectorRef: billy_github
                   gitFetchType: Branch
                   paths:
-                    - release/kubernetes-manifests/*.yaml
+                    - release/kubernetes-manifests.yaml
                   branch: main
               skipResourceVersioning: false
               enableDeclarativeRollback: false
